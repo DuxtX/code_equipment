@@ -25,6 +25,7 @@ Troubleshoot: If the ODrive is not correctly connected, please use the Zadig on 
 ```
 odrv0.axis1.motor.config.current_lim = 60
 odrv0.axis1.motor.config.requested_current_range = 90
+odrv0.axis1.motor.config.resistance_calib_max_voltage = 10
 odrv0.axis1.motor.config.calibration_current = 60
 odrv0.axis1.controller.config.vel_limit = 8000
 odrv0.axis1.motor.config.pole_pairs = 7
